@@ -8,10 +8,13 @@
     "chai"
   ],
   "license": "ISC",
+  "type": "module",
   "author": "Tanya Bharti",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
